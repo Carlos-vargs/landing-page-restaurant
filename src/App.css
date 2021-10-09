@@ -1,0 +1,18 @@
+:root {
+  --color-base: "#A82D49";
+}
+
+.scrollBar-hidden::-webkit-scrollbar{
+  width: 0;
+}
+
+/* .wave-separator{
+  height: 9px;
+  width: 100%;
+  background-color: transparent;
+  background: url('./images/bg-header.png') repeat-x bottom;
+  position: absolute;
+  bottom: -9px;
+  z-index: 25;
+} */
+
