@@ -17,9 +17,6 @@ export default function Header() {
         setscroll(true)
     }
 
-    console.log(scroll);
-
-
     const nav = ['Home', 'About Us', 'Explore', 'Foods', 'Reviews', 'FAQ']
     const phoneNumber = '1800 789 123'
 

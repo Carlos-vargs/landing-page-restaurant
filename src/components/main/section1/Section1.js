@@ -5,7 +5,7 @@ import food from '../../../images/food.png'
 import ButtonsContainer from './ButtonsContainer';
 import CounterInfo from './CounterInfo';
 
-function Seccion1() {
+export default function Seccion1() {
     return (
         <React.Fragment>
             <Flex>
@@ -15,7 +15,7 @@ function Seccion1() {
                         are good <br />
                         investments. <br />
                     </Heading>
-                    <Text as="span" textColor="gray.600" mb="26px !important">
+                    <Text as="span" textColor="gray.600" mb="26px !important" fontSize="19px" lineHeight="34px"> 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                         Etiam et purus a odio finibus bibendum amet leo.
                     </Text>
@@ -27,5 +27,3 @@ function Seccion1() {
         </React.Fragment>
     );
 }
-
-export default Seccion1;

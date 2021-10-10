@@ -32,8 +32,7 @@ function CounterInfo() {
                             key={`${item.num}${Math.random()}`}
                             num={item.num}
                             text={item.text}
-                        />
-                    )
+                        />)
                 }
             </Center>
         </Flex>
