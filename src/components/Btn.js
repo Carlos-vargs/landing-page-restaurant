@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box } from '@chakra-ui/layout';
 
-export default function Btn({shw, sizeMl ,sizePx, sizePy, children, bgC, colorTxt }) {
+export default function Btn({ shw, sizeMl, sizePx, sizePy, children, bgC, colorTxt }) {
+
     return (
         <Box
             bgColor={bgC}
@@ -13,12 +14,12 @@ export default function Btn({shw, sizeMl ,sizePx, sizePy, children, bgC, colorTx
             color={colorTxt}
             borderColor="transparent"
             _hover={{
-                backgroundColor: "white",
+                backgroundColor: 'transparent',
                 color: "#A82D49",
                 borderColor: '#A82D49',
                 borderWidth: '4px',
                 cursor: 'pointer',
-                transition: 'all 1s ease'
+                transition: 'all 0.5s ease'
             }}>
             {children}
         </Box>

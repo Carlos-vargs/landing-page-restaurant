@@ -1,9 +1,11 @@
 import React from 'react';
 import { Box, Center, Flex, Heading, Stack, Text } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image';
+import { Input } from "@chakra-ui/react"
 import photo from '../../../images/bgAtch.jpg'
 import { PlayIcon } from '@heroicons/react/solid';
 import FoodCard from '../../FoodCard';
+import Btn from '../../Btn';
 
 
 //data-aos="flip-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
@@ -36,12 +38,37 @@ export default function Section3() {
                 </Text>
             </Stack>
             <Flex justifyContent="center" >
-                <Center gridGap="40px" >
+                <Center gridGap="40px" mb="310px">
                     <FoodCard />
                     <FoodCard />
                     <FoodCard />
                 </Center>
             </Flex>
+            <Flex className="boxAttach"  height="190px" justifyContent="center" mb="128px">
+                <Center gridGap="218px" >
+                    <Heading as="h2" color="white" size="lg" fontFamily="'Nunito', sans-serif" >Baked fresh daily by bakers with passion.</Heading>
+                    <Box w="149px" h="48px" >
+                        <Btn sizePx="16px" sizePy="6px" sizeMl="6px" bgC="#A82D49" colorTxt="white">
+                            <Text as="b" display="flex" alignItems="center" justifyContent="center">Learn More</Text>
+                        </Btn>
+                    </Box>
+                </Center>
+            </Flex>
+            <Stack direction="column" alignItems="center">
+                <Heading color="#43121D" whiteSpace="pre-wrap" textAlign="center" fontFamily="'Nunito', sans-serif" mb="40px">
+                    Hurry up! Subscribe our newsletter <br />
+                    and get 25% Off
+                </Heading>
+                <Text as="span" color="gray.600" letterSpacing="1px" mb="34px !important">Limited time offer for this month. No credit card required.</Text>
+                <Flex h="50px" mb="130px !important">
+                    <Center gridGap="30px" >
+                        <Input w="396px" placeholder="Email Address here" borderWidth="2px" borderRadius="0" borderColor="gray.300" />
+                        <Btn sizePx="16px" sizePy="6px" sizeMl="6px" bgC="#A82D49" colorTxt="white">
+                            <Text as="b" display="flex" alignItems="center" fontSize="14px" justifyContent="center">Subscribe</Text>
+                        </Btn>
+                    </Center>
+                </Flex>
+            </Stack>
         </React.Fragment>
     );
 }

@@ -6,6 +6,14 @@
   width: 0;
 }
 
+.boxAttach{
+  background-image: url('./images/food4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(0.4); pending */
+  background-attachment: fixed;
+}
+
 /* .wave-separator{
   height: 9px;
   width: 100%;

@@ -1,6 +1,6 @@
 import { Image } from '@chakra-ui/image';
 import { Center, Flex, Spacer, Text } from '@chakra-ui/layout';
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '../images/logo.png'
 import Btn from './Btn';
 
@@ -8,20 +8,12 @@ import Btn from './Btn';
 
 
 export default function Header() {
-    
-    const [scroll, setscroll] = useState(false)
-
-    const scrollOn =  document.documentElement.scrollTop
-    
-    if (scrollOn) {
-        setscroll(true)
-    }
 
     const nav = ['Home', 'About Us', 'Explore', 'Foods', 'Reviews', 'FAQ']
     const phoneNumber = '1800 789 123'
 
     return (
-        <Flex h="100px" bgColor="white" px="90px" position="fixed" w="100%" textColor="white" zIndex="25" shadow={scroll && 'lg'} >
+        <Flex h="100px" bgColor="white" px="90px" position="fixed" w="100%" textColor="white" zIndex="25">
             <Center>
                 <Image src={logo} alt="app logo" />
             </Center>

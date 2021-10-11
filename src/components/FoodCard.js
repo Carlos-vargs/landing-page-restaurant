@@ -6,7 +6,7 @@ import Btn from './Btn'
 export default function FoodCard({ url, title, timer, serviceCount, price, offerPrice, }) {
     return (
         <React.Fragment>
-            <Stack direction="column" w="384px" h="290px" mb="1200px" textTransform="capitalize" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <Stack direction="column" w="384px" h="290px" textTransform="capitalize" data-aos="zoom-in-down" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <Image src="http://demo.tutsflow.com/foodera/images/foods/03.jpg" borderRadius="lg" objectFit="cover" />
                 <Box mt="18px !important" px="12px">
                     <Heading as="h4" size="md" color="#48121D" fontFamily="'Nunito', sans-serif">vegetarian burger</Heading>
