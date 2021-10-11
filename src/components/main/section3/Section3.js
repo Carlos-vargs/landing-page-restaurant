@@ -4,13 +4,16 @@ import FreshBakedContainer from './FreshBakedContainer';
 import AboutOurHistory from './AboutOurHistory';
 import ExploreFoods from './ExploreFoods';
 import SpecialOfferProducts from './SpecialOfferProducts';
+import one from '../../../images/01.jpg'
+import two from '../../../images/02.jpg'
+import three from '../../../images/03.jpg'
 
 export default function Section3() {
 
     const data = [
         {
             title: "rainbow vegetable sandwich",
-            url: "http://demo.tutsflow.com/foodera/images/foods/01.jpg",
+            url: one,
             timer: "15 - 20",
             serviceCount: "1",
             price: "10.50",
@@ -18,7 +21,7 @@ export default function Section3() {
         },
         {
             title: "vegetarian burger",
-            url: "http://demo.tutsflow.com/foodera/images/foods/02.jpg",
+            url: two,
             timer: "30 - 45",
             serviceCount: "1",
             price: "10.50",
@@ -26,7 +29,7 @@ export default function Section3() {
         },
         {
             title: "raspberry stuffed french toast",
-            url: "http://demo.tutsflow.com/foodera/images/foods/03.jpg",
+            url: three,
             timer: "10 - 15",
             serviceCount: "1",
             price: "13.20",
