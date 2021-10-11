@@ -5,31 +5,3 @@
 .scrollBar-hidden::-webkit-scrollbar{
   width: 0;
 }
-
-.boxAttach{
-  background-image: url('./images/food4.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* filter: brightness(0.4); pending */
-  background-attachment: fixed;
-}
-
-/* .wave-separator{
-  height: 9px;
-  width: 100%;
-  background-color: transparent;
-  background: url('./images/bg-header.png') repeat-x bottom;
-  position: absolute;
-  bottom: -9px;
-  z-index: 25;
-} */
-
-
-/* .image{
-  background-image: url('./images/bgAtch.jpg');
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 450px;
-  object-fit: contain;
-  background-attachment: local;
-} */
