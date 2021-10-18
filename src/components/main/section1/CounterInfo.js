@@ -24,8 +24,8 @@ function CounterInfo() {
     ]
 
     return (
-        <Flex w="full" bg="#A82D49" h="166px" mb="100px" color="white" px="166px" justifyContent="center" >
-            <Center gridGap="100px" >
+        <Flex w="full" bg="#A82D49" h={['full','full','full','166px','166px']} mb="100px" color="white" px="166px" justifyContent="center" >
+            <Center gridGap={['40px','40px','40px','100px','100px']} flexDirection={['column','column','column','row','row']} py={['40px','40px','40px','0px', '0px']}>
                 {
                     dataCounter.map(item =>
                         <CardCounter

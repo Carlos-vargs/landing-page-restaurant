@@ -6,7 +6,16 @@ import Btn from './Btn'
 export default function FoodCard({ url, title, timer, serviceCount, price, offerPrice, }) {
     return (
         <React.Fragment>
-            <Stack direction="column" w="384px" h="290px" textTransform="capitalize" data-aos="zoom-in-down" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <Stack
+                direction="column"
+                w="384px"
+                textTransform="capitalize"
+                data-aos="zoom-in-down"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                px={['20px','20px','20px','0px','0px']}
+            >
                 <Image src={url} borderRadius="lg" objectFit="cover" />
                 <Box mt="18px !important" px="12px">
                     <Heading as="h4" size="md" color="#48121D" fontFamily="'Nunito', sans-serif">{title}</Heading>

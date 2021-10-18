@@ -19,7 +19,13 @@ export default function FreshBakedContainer() {
             >
                 <Box w="full" h="190px" bgColor="#000" opacity="0.4" position="absolute">
                 </Box>
-                <Center gridGap="218px" position="absolute" top="40%">
+                <Center
+                    flexDirection={['column', 'column', 'column', 'row', 'row']}
+                    textAlign={['center','center','center','left','left']}
+                    gridGap={['20px', '20px', '20px', '218px', '218px']}
+                    position="absolute"
+                    top={['16%','16%','16%','40%','40%']}
+                >
                     <Heading as="h2" color="white" size="lg" fontFamily="'Nunito', sans-serif" >Baked fresh daily by bakers with passion.</Heading>
                     <Box w="149px" h="48px" >
                         <Btn sizePx="16px" sizePy="6px" sizeMl="6px" bgC="#A82D49" colorTxt="white">

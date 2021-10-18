@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import SubscribeContainer from './SubscribeContainer';
 import FreshBakedContainer from './FreshBakedContainer';
 import AboutOurHistory from './AboutOurHistory';
@@ -38,12 +38,12 @@ export default function Section3() {
     ]
 
     return (
-        <React.Fragment>
+        <Fragment>
             <AboutOurHistory />
             <ExploreFoods />
             <SpecialOfferProducts products={data} />
             <FreshBakedContainer />
-            <SubscribeContainer />
-        </React.Fragment >
+            <SubscribeContainer /> 
+        </Fragment >
     );
 }

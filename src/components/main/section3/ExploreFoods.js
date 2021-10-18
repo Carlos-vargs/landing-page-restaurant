@@ -4,7 +4,7 @@ import { Heading, Stack, Text } from '@chakra-ui/layout';
 export default function ExploreFoods() {
     return (
         <Fragment>
-            <Stack direction='column' textAlign="center" mb="98px">
+            <Stack id="exploreFoods" direction='column' textAlign="center" mb="98px" px={['20px','50px','50px','0px','0px']}>
                 <Heading fontFamily="'Nunito', sans-serif" as="h2" size="xl" lineHeight="46px" textColor="#43121D" mb="30px" >
                     Explore Our Foods
                 </Heading>
