@@ -1,5 +1,5 @@
 import { Image } from '@chakra-ui/image';
-import { Center, Flex, Text } from '@chakra-ui/layout';
+import { Center, Flex } from '@chakra-ui/layout';
 import React from 'react';
 import logo from '../images/logoRNW.png'
 import NavHeader from './NavHeader';

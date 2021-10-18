@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRightIcon, ShoppingCartIcon } from '@heroicons/react/outline';
-import { Text, Stack, Box, Flex } from '@chakra-ui/layout';
+import { Text, Flex } from '@chakra-ui/layout';
 import Btn from '../../Btn';
 
 function ButtonsContainer() {

@@ -1,4 +1,3 @@
-import { Box } from '@chakra-ui/layout';
 import React, { Fragment } from 'react';
 import Section1 from './main/section1/Section1';
 import Section2 from './main/section2/Section2';
