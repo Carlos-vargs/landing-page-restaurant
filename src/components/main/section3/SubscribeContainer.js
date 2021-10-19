@@ -6,7 +6,7 @@ import Btn from '../../Btn';
 export default function SubscribeContainer() {
     return (
         <Fragment>
-            <Stack id="newsletter" direction="column" alignItems="center">
+            <Stack className="smt" id="newsletter" direction="column" alignItems="center">
                 <Heading color="#43121D" whiteSpace="pre-wrap" textAlign="center" fontFamily="'Nunito', sans-serif" mb="40px">
                     Hurry up! Subscribe our newsletter <br />
                     and get 25% Off

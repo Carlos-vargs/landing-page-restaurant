@@ -13,6 +13,7 @@ export default function Seccion1() {
         <Fragment>
             <Flex
                 id="home"
+                className="smt"
                 position="relative"
                 bgImg={`url(${food})`}
                 color="white"

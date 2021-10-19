@@ -7,6 +7,7 @@ export default function AboutOurHistory() {
     return (
         <Fragment>
             <Flex
+                className="smt"
                 id="ourHistory"
                 justifyContent="center"
                 mt="130px"

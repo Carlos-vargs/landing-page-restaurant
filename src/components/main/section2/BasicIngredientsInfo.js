@@ -12,7 +12,7 @@ export default function BasicIngredientsInfo() {
 
     return (
         <Fragment>
-            <Flex id="aboutUs" textAlign={['center', 'center', 'center', 'left', 'left']} px={['0px', '0px', '0px', '121px', '121px']}>
+            <Flex className="smt" id="aboutUs" textAlign={['center', 'center', 'center', 'left', 'left']} px={['0px', '0px', '0px', '121px', '121px']}>
                 <Center flexDirection={['column', 'column', 'column', 'row', 'row']} gridGap="30px">
                     <Box
                         w="90%"
